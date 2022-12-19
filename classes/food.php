@@ -1,6 +1,6 @@
 <?php 
 
-include_once __DIR__ . '/classes/product.php';
+include_once __DIR__ . './product.php';
 
 class food extends product{    
     public $netWeight;
@@ -17,7 +17,7 @@ class food extends product{
     ) {
         $this->netWeight = $netWeight;
         $this->ingredients = $ingredients;
-        parent::__construct($image,$productName,$price,$category)
+        parent::__construct($image,$productName,$price,$category);
     }
 }
 

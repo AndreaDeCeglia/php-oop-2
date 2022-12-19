@@ -1,6 +1,6 @@
 <?php
 
-include_once __DIR__ . '/classes/categories.php';
+include_once __DIR__ . './categories.php';
 
 class Product{
     public $image;
@@ -21,6 +21,5 @@ class Product{
     }
 }
 
-var_dump($Product);
 
 ?>

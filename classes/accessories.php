@@ -1,6 +1,6 @@
 <?php 
 
-include_once __DIR__ . '/classes/product.php';
+include_once __DIR__ . './product.php';
 
 class accessories extends product{    
     public $materials;
@@ -17,7 +17,7 @@ class accessories extends product{
     ) {
         $this->materials = $materials;
         $this->dimentions = $dimentions;
-        parent::__construct($image,$productName,$price,$category)
+        parent::__construct($image,$productName,$price,$category);
     }
 }
 
