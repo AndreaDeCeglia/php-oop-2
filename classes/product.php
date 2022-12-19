@@ -21,4 +21,6 @@ class Product{
     }
 }
 
+var_dump($Product);
+
 ?>
